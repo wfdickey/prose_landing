@@ -242,10 +242,10 @@ em{
 
 span.dropcap {
 	float: left;
-	font-size: 70px;
-	line-height: 23px;
+	font-size: 60px;
+	line-height: 29px;
 	padding-top: 10px;
-	padding-right: 3px;
+	padding-right: 7px;
 	padding-left: 3px;
 }
 
@@ -368,7 +368,7 @@ ul.social-link a:hover {
 	float: left;
 }
 .fourth{
-	width: 24%;
+	width: 28%;
 	margin-right: 1%;
 	float: left;
 }
@@ -593,14 +593,36 @@ cite{
    11. Media Queries 1140px
    ========================================================================== */
 @media only screen and (max-width: 1140px) {
-	.wrapper { width: 800px; /* 1140px - 10% for margins */ margin: 0 auto;  }
+	.wrapper { width: 900px; /* 1140px - 10% for margins */ margin: 0 auto;  }
 }
 
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 905px) {
+
+	.main {
+		max-width: 100%;	
+	}
+
 	ul.social-link a {
 		font-size: 30px;
 	}
+	.fourth p{
+		font-size: 15px;
+		padding-left: 24px;
+
+	}
+	span.dropcap {
+		font-size: 50px;
+	}
+	p.social-copy {
+		padding-left: 0px;
+		text-align: center;
+
+	}
+	.last article {
+		text-align: center;
+	}
+	
 }
 
 
@@ -626,7 +648,7 @@ cite{
 	}
 	.fourth{
 		width: 100%;
-		text-align: center;
+		text-align: ;
 	}
 	.main-container article{
 		padding-top: 1.3em;
@@ -653,9 +675,9 @@ cite{
 		width: 100%;
 		margin: 0 auto; 
 	} 
-	.fourth{
+	.fourth {
 		width: 100%;
-		text-align: center;
+		text-align: left;
 	}
 	.main-container article{
 		padding-top: 1.3em;
@@ -703,6 +725,14 @@ cite{
 		margin: 0;
 		padding: 0;
 	}
+
+	span.dropcap {
+		font-size: 48px;
+		line-height: 26px;
+	}
+	.fourth p {
+		line-height: 23px;
+	}
 }
 
 
@@ -719,8 +749,10 @@ cite{
 	} 
 	.fourth{
 		width: 100%;
-		text-align: center;
+		text-align: left;
 	}
+
+
 	.main-container article{
 		padding-top: 1.3em;
 		padding-bottom: 1.3em;
