@@ -2,11 +2,11 @@ $(window).load(function() {
 	
 	// Flex Slider
     $('.flexslider1').flexslider({
-      animation: 'slide', // Change Animation Type to fade
+      animation: 'fade', // Change Animation Type to fade
       animationLoop: true,
       touch: true,
       directionNav: false,
-      slideshowSpeed: 5000, // Slide Intervals
+      slideshowSpeed: 6000, // Slide Intervals
       animationSpeed: 600, // Animation Speeds/times
       slideshow: true,
       pauseOnAction: false,
