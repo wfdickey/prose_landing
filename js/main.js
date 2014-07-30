@@ -30,6 +30,9 @@ $(window).load(function() {
     
     // Back Stretch 
     $("#masthead").backstretch("img/bg_1.jpg");
+
+    // slider.eventType = ('ontouchstart' in document.documentElement) ? 'touchstart' : 'click';
+    slider.eventType = "click";
     	 
   });
   
