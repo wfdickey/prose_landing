@@ -781,6 +781,11 @@ cite{
 	.footer-container li {
 		display: block;
 	}
+
+	.login {
+		top: 5px;
+		right:5px;
+	}
 }
 
 
