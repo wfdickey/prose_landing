@@ -676,7 +676,7 @@ cite{
 	}
 
 	.login {
-		top:54px;
+		display: none;
 	}
 
 }
@@ -782,10 +782,6 @@ cite{
 		display: block;
 	}
 
-	.login {
-		top: 5px;
-		right:5px;
-	}
 }
 
 
